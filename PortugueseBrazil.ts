@@ -1,13 +1,10 @@
 import { Translations } from "..";
 
 export const PortugueseBrazilTranslations: Translations = {
-    WelcomeName: "Bem-vindo ao skeld.net",
+    WelcomeName: "Bem-vindo ao extra roles",
     WelcomeMessage: `
-O primeiro servidor customizado de Among Us do mundo.
 Digite /help para começar
 Modo de jogo atual: @{gamemode[0]}
-
-Inscreva-se ao nosso Patreon https://www.patreon.com/skeld_net para ganhar um nome colorido no jogo!`.trim(),
     SetImpostorsInvalidCount:
         "Número de jogadores invalido, por favor coloque um numéro entre 1 à 3",
     SetImpostorsSuccess: "Número de impostores foi definido para @{number[0]}",
