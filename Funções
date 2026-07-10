@@ -1,0 +1,31 @@
+{
+  "versao_mod": "extra roles" (Lançamento Inicial)",
+  "idioma_padrao": "pt-BR",
+  "funcoes_habilitadas": {
+    "funcoes_equipe": [
+      "Vigilante",
+      "Médico",
+      "Detetive",
+      "Engenheiro",
+      "Guarda",
+      "Vidente",
+      "Investigador",
+      "Trapaceiro"
+    ],
+    "funcoes_solitaria": [
+      "Assassino",
+      "Lobo Mau",
+      "Arlequim",
+      "Sobrevivente",
+      "Caçador",
+      "Fantasma"
+    ],
+    "funcoes_impostor": [
+      "Ladrão",
+      "Sabotador",
+      "Assassino de Alvo",
+      "Duplicata",
+      "Demolidor",
+    }
+  }
+}
