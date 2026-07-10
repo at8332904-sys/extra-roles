@@ -1,0 +1,123 @@
+{
+  "JsonRoleData": [
+    {
+      "name": "CrewmateRole",
+      "chance": 100,
+      "options": []
+    },
+    {
+      "name": "ImpostorRole",
+      "chance": 100,
+      "options": []
+    },
+    {
+      "name": "EngineerRole",
+      "chance": 100,
+      "options": []
+    },
+    {
+      "name": "SheriffRole",
+      "chance": 100,
+      "options": [
+        {
+          "name": "killTargetOnMisfire",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "name": "MedicRole",
+      "chance": 100,
+      "options": [
+        {
+          "name": "reviveCooldown",
+          "value": 15.0
+        },
+        {
+          "name": "revivedCanTalk",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "name": "JesterRole",
+      "chance": 100,
+      "options": [
+        {
+          "name": "canVent",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "name": "PelicanRole",
+      "chance": 100,
+      "options": []
+    },
+    {
+      "name": "DraggerRole",
+      "chance": 100,
+      "options": []
+    },
+    {
+      "name": "PhantomRole",
+      "chance": 100,
+      "options": [
+        {
+          "name": "vanishCooldown",
+          "value": 15.0
+        },
+        {
+          "name": "vanishDuration",
+          "value": 30.0
+        }
+      ]
+    },
+    {
+      "name": "ShapeshifterRole",
+      "chance": 100,
+      "options": [
+        {
+          "name": "leaveEvidence",
+          "value": 0.0
+        },
+        {
+          "name": "vanishCooldown",
+          "value": 15.0
+        },
+        {
+          "name": "vanishDuration",
+          "value": 30.0
+        }
+      ]
+    },
+    {
+      "name": "BomberRole",
+      "chance": 100,
+      "options": [
+        {
+          "name": "explodeCooldown",
+          "value": 45.0
+        },
+        {
+          "name": "explodeMaxUses",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "name": "GuardianAngelRole",
+      "chance": 100,
+      "options": [
+        {
+          "name": "protectCooldown",
+          "value": 15.0
+        },
+        {
+          "name": "protectDuration",
+          "value": 15.0
+        }
+      ]
+    }
+  ]
+}
