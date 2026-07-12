@@ -1,0 +1,17 @@
+{
+  "versao_config": "2.0",
+  "servidores": [
+    {
+      "id": "extra-funcoes-br",
+      "nome": "Extra Funções - Brasil",
+      "endereco": "seu-servidor.exemplo.com",
+      "porta_jogo": 22023,
+      "porta_websocket": 22024,
+      "regiao": "SA",
+      "idioma": "pt-BR",
+      "suporte_modos": ["Clássico", "Funções Extras"],
+      "versao_minima_jogo": "2025.10.5a",
+      "permite_sem_mod": false
+    }
+  ]
+}
