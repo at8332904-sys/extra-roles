@@ -1,0 +1,136 @@
+{
+  "versao_lista": "1.0",
+  "funcoes": [
+    {
+      "nome": "Função do tripulante",
+      "nome_exibicao": "Tripulante",
+      "chance": 100,
+      "opcoes": []
+    },
+    {
+      "nome": "ImpostorRole",
+      "nome_exibicao": "Impostor",
+      "chance": 100,
+      "opcoes": []
+    },
+    {
+      "nome": "Função de Engenheiro",
+      "nome_exibicao": "Engenheiro",
+      "chance": 100,
+      "opcoes": []
+    },
+    {
+      "nome": "SheriffRole",
+      "nome_exibicao": "Xerife",
+      "chance": 100,
+      "opcoes": [
+        {
+          "nome": "killTargetOnMisfire",
+          "valor": 0.0
+        }
+      ]
+    },
+    {
+      "nome": "MedicRole",
+      "nome_exibicao": "Médico",
+      "chance": 100,
+      "opcoes": [
+        {
+          "nome": "reviverCooldown",
+          "valor": 15.0
+        },
+        {
+          "nome": "revivedCanTalk",
+          "valor": 0.0
+        }
+      ]
+    },
+    {
+      "nome": "JesterRole",
+      "nome_exibicao": "Palhaço",
+      "chance": 100,
+      "opcoes": [
+        {
+          "nome": "canVent",
+          "valor": 1.0
+        }
+      ]
+    },
+    {
+      "nome": "PelicanRole",
+      "nome_exibicao": "Pelicano",
+      "chance": 100,
+      "opcoes": []
+    },
+    {
+      "nome": "DraggerRole",
+      "nome_exibicao": "Arrastador",
+      "chance": 100,
+      "opcoes": []
+    },
+    {
+      "nome": "PhantomRole",
+      "nome_exibicao": "Fantasma",
+      "chance": 100,
+      "opcoes": [
+        {
+          "nome": "vanishCooldown",
+          "valor": 15.0
+        },
+        {
+          "nome": "desaparecerDuracao",
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "nome": "Função de Transmorfo",
+      "nome_exibicao": "Transmorfo",
+      "chance": 100,
+      "opcoes": [
+        {
+          "nome": "deixarEvidência",
+          "valor": 0.0
+        },
+        {
+          "nome": "vanishCooldown",
+          "valor": 15.0
+        },
+        {
+          "nome": "desaparecerDuracao",
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "nome": "BomberRole",
+      "nome_exibicao": "Bombeiro",
+      "chance": 100,
+      "opcoes": [
+        {
+          "nome": "explodeCooldown",
+          "valor": 45.0
+        },
+        {
+          "nome": "explodeMaxUses",
+          "valor": 2.0
+        }
+      ]
+    },
+    {
+      "nome": "GuardianAngelRole",
+      "nome_exibicao": "Anjo da Guarda",
+      "chance": 100,
+      "opcoes": [
+        {
+          "nome": "protegerResfriamento",
+          "valor": 15.0
+        },
+        {
+          "nome": "protectDuration",
+          "valor": 15.0
+        }
+      ]
+    }
+  ]
+}
