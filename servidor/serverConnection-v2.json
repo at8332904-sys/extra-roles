@@ -7,11 +7,11 @@
       "endereco": "seu-servidor.exemplo.com",
       "porta_jogo": 22023,
       "porta_websocket": 22024,
-      "regiao": "SA",
+      "regiao": "STUDIOguto","América do Sul"
       "idioma": "pt-BR",
       "suporte_modos": ["Clássico", "Funções Extras"],
-      "versao_minima_jogo": "2025.10.5a",
-      "permite_sem_mod": false
+      "versao_minima_jogo": "2026.07.5a",
+      "permite_sem_mod": true
     }
   ]
 }
