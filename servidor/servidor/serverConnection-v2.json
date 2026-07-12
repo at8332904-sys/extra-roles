@@ -1,0 +1,31 @@
+using BepInEx;
+using Harmony;
+using AmongUs.Gameoptions;
+
+namespace ExtraFuncoes.Servidor
+{
+    [BepInPlugin("com.extrafuncoes.servidor", "Extra Funções - Lado Servidor", "1.0.0")]
+    public class ServerMod : BaseUnityPlugin
+    {
+        private readonly Harmony harmony = new Harmony("com.extrafuncoes.servidor");
+
+        void Awake()
+        {
+            harmony.PatchAll();
+            Logger.LogInfo("[✅] Servidor Extra Funções carregado com sucesso!");
+        }
+
+        // Validação de regras exclusivas do servidor
+        [HarmonyPatch(typeof(GameOptionsManager), nameof(GameOptionsManager.ValidateOptions))]
+        public static class RegrasServidor
+        {
+            static void Postfix(GameOptions options)
+            {
+                // Aplique suas regras aqui
+                options.MaxPlayers = 15;
+                options.TutorialDisabled = true;
+            }
+        }
+    }
+}
+  
