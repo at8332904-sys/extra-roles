@@ -1,5 +1,4 @@
 {
-  gamemode
     "Classico",
     "CacaAosImpostores",
     "EscondeEsconde",
@@ -12,5 +11,5 @@
     "SemReunioes",
     "copias",
     "Tarefasimpossíveis"
-  ]
+}
 }
