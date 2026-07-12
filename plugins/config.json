@@ -7,6 +7,5 @@
   "servidor_padrao": "Extra Funcoes - Brasil",
   "max_jogadores": 15,
   "funcoes_ativas": true,
-  "permite_xerife": true,
   "permite_outras_funcoes": true
 }
