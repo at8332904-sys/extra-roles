@@ -1,10 +1,10 @@
 # Extra roles 
-Um mod para trazer a lembrança do town of us 
+Um mod onde pegamos alguns arquivos do Modding us
 além de completos para deixar o mod melhor 
 Onde funciona?
 Android 📱 
 pc 💻 
 iPhone 🍎 não vai?
 Não definitivamente vai funcionar mas para isso 
-colcamos as nossas regiões STUDIOGUTO e 217G.
-este projeto irá ser o máximo e sempre estaremos atualizando quando sair a nova versão já estaremos disponibilizando como baixar
+colocamos as nossas regiões STUDIOGUTO e 217G.
+este projeto irá ser o máximo e sempre estaremos atualizando quando sair a primeira versão já estaremos disponibilizando como baixar
