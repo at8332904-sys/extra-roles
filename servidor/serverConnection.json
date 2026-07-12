@@ -4,8 +4,8 @@
   "endereco": "seu-servidor.exemplo.com",
   "porta": 22023,
   "protocolo": "tcp",
-  "versao_compatibilidade": "2025.10.x",
-  "regiao": "Brasil",
+  "versao_compatibilidade": "2026.07.x",
+  "regiao": "América do Sul",
   "prioridade": 1,
   "requer_mod": true
 }
