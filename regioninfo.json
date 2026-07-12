@@ -1,28 +1,38 @@
 {
+  "CurrentRegionIdx": 0,
   "Regions": [
     {
-      "Name": "studioguto"
-      "ip": 45.22469.50
+      "$type": "DnsRegionInfo, Assembly-CSharp",
+      "Name": "💙 STUDIOGUTO",
+      "DefaultIp": "45.224.69.50",
       "Port": 22023,
-      "PlayFabId": ""
+      "UseDtls": false,
+      "TranslateName": 1001
     },
     {
+      "$type": "DnsRegionInfo, Assembly-CSharp",
       "Name": "América do Norte",
-      "Ip": "173.231.210.80",
+      "DefaultIp": "173.231.210.80",
       "Port": 22023,
-      "PlayFabId": ""
+      "UseDtls": true,
+      "TranslateName": 289
     },
     {
+      "$type": "DnsRegionInfo, Assembly-CSharp",
       "Name": "Europa",
-      "Ip": "172.105.240.189",
+      "DefaultIp": "172.105.240.189",
       "Port": 22023,
-      "PlayFabId": ""
+      "UseDtls": true,
+      "TranslateName": 290
     },
     {
+      "$type": "DnsRegionInfo, Assembly-CSharp",
       "Name": "Ásia",
-      "Ip": "139.180.148.190",
+      "DefaultIp": "139.180.148.190",
       "Port": 22023,
-      "PlayFabId": ""
+      "UseDtls": true,
+      "TranslateName": 291
     }
   ]
 }
+
