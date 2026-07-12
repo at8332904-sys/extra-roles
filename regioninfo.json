@@ -1,0 +1,28 @@
+{
+  "Regions": [
+    {
+      "Name": "STUDIOGUTO'
+      "Ip": "
+      "Port": 22023,
+      "PlayFabId": ""
+    },
+    {
+      "Name": "América do Norte",
+      "Ip": "173.231.210.80",
+      "Port": 22023,
+      "PlayFabId": ""
+    },
+    {
+      "Name": "Europa",
+      "Ip": "172.105.240.189",
+      "Port": 22023,
+      "PlayFabId": ""
+    },
+    {
+      "Name": "Ásia",
+      "Ip": "139.180.148.190",
+      "Port": 22023,
+      "PlayFabId": ""
+    }
+  ]
+}
