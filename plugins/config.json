@@ -1,0 +1,12 @@
+{
+  "mod_nome": "Extra Funcoes",
+  "versao": "V.1.2",
+  "idioma": "pt-BR",
+  "suporte_android": true,
+  "suporte_pc": true,
+  "servidor_padrao": "Extra Funcoes - Brasil",
+  "max_jogadores": 15,
+  "funcoes_ativas": true,
+  "permite_xerife": true,
+  "permite_outras_funcoes": true
+}
