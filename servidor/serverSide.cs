@@ -1,28 +1,33 @@
-using BepInEx;
-using HarmonyLib;
-using AmongUs.GameOptions;
 
-namespace ExtraFuncoes.Servidor
+name:ExtraFuncoes.Servidor
 {
-    [BepInPlugin("com.extrafuncoes.servidor", "Extra Funções - Lado Servidor", "1.0.0")]
-    public class ServerMod : BaseUnityPlugin
+    [BepInPlugin("com.extrafuncoes.susing System;
+using UnityEngine;
+using TMPro;
+using HarmonyLib;
+using UnityEngine.SceneManagement;
+// Harmful usings are blocked, dont even try lol.
+// Harmony is not recommended for several compatibility reasons, so you should make event-based things instead of using harmony
+
+public class DynamicCode
+{    
+    public void Execute()
     {
-        private readonly Harmony harmony = new Harmony("com.extrafuncoes.servidor");
+        Debug.Log("Online Asset Preloader Initialized.");
 
-        void Awake()
-        {
-            harmony.PatchAll();
-            Logger.LogInfo("[✅] Servidor Extra Funções carregado!");
-        }
-
-        [HarmonyPatch(typeof(GameOptionsManager), nameof(GameOptionsManager.ValidateOptions))]
-        public static class RegrasServidor
-        {
-            static void Postfix(GameOptions options)
+        SceneManager.activeSceneChanged += delegate(Scene oldScene, Scene scene)
+	{
+            if (scene.name == "MainMenu")
             {
-                options.MaxPlayers = 15;
-                options.TutorialDisabled = true;
+                ExecuteMainMenu("scene change");
             }
-        }
+	};
+	MUEventManager.Instance.OnEventCalled("MainMenuManager::Start::Postfix", (parameters) =>
+        {
+            ExecuteMainMenu("event");
+        });
     }
-}
+
+    public void ExecuteMainMenu(string caller)
+    {
+        Debug.Log("Hooked up main menu loaded. v
