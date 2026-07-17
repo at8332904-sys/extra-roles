@@ -1,15 +1,125 @@
 {
-    "Classico",
-    "CacaAosImpostores",
-    "EscondeEsconde",
-    "CorridaASabotagem",
-    "speedrrun",
-    "DuplaDinamica",
-    "freefire",
-    "venteleporter",
-    "desastre natural",
-    "SemReunioes",
-    "copias",
-    "Tarefasimpossíveis"
+  "modos_de_jogo": [
+    {
+      "nome": "Classico",
+      "regras": [
+        "Dividido em Tripulantes e Impostores",
+        "Tripulantes fazem tarefas para ganhar",
+        "Impostores matam e sabotam sem ser pegos",
+        "Votação decide quem sai da nave",
+        "Se os Impostores forem maioria ou sabotarem tudo, eles ganham"
+      ]
+    },
+    {
+      "nome": "CacaAosImpostores",
+      "regras": [
+        "Todos sabem quem são os Impostores desde o início",
+        "Tripulantes devem caçar e votar todos os Impostores rapidamente",
+        "Impostores têm mais poder de ataque e menos tempo para ser pegos",
+        "Não há esconderijo: é corrida para eliminar o time adversário",
+        "Tripulantes ganham se eliminarem todos os Impostores antes que a nave seja destruída"
+      ]
+    },
+    {
+      "nome": "EscondeEsconde",
+      "regras": [
+        "1 Impostor apenas, não pode matar de primeira",
+        "Tripulantes se escondem e fazem tarefas sem ser vistos",
+        "Impostor conta até um número e sai para procurar",
+        "Quem for encontrado é eliminado ou vira caçador também",
+        "Tripulantes ganham se terminarem todas as tarefas antes do tempo acabar"
+      ]
+    },
+    {
+      "nome": "CorridaASabotagem",
+      "regras": [
+        "Impostores ganham SE SABOTAREM a nave antes do tempo acabar",
+        "Tripulantes devem consertar TODAS as sabotagens imediatamente",
+        "Não há reuniões para votação: só correr e consertar",
+        "Se Tripulantes consertarem tudo até o fim, eles ganham",
+        "Velocidade e atenção são o mais importante"
+      ]
+    },
+    {
+      "nome": "speedrun",
+      "regras": [
+        "Tarefas e ações são feitas o mais rápido possível",
+        "Tempo contado desde o início até o fim do jogo",
+        "Quem terminar primeiro ou cumprir o objetivo no menor tempo vence",
+        "Sem enrolação, sem distrações: só velocidade",
+        "Regras básicas valem, mas tudo tem que ser feito rápido"
+      ]
+    },
+    {
+      "nome": "DuplaDinamica",
+      "regras": [
+        "Jogadores são divididos em pares",
+        "Só pode agir junto com o seu parceiro",
+        "Se um for eliminado, o outro fica sozinho ou sai também",
+        "Parceria e comunicação são obrigatórias",
+        "Ganham as duplas que cumprirem o objetivo primeiro"
+      ]
+    },
+    {
+      "nome": "freefire",
+      "regras": [
+        "Todos podem atacar qualquer um",
+        "Não há times fixos: último vivo vence",
+        "Armas e ferramentas aparecem pela nave",
+        "Não há reuniões, só combate",
+        "Cuidado com quem está ao seu lado"
+      ]
+    },
+    {
+      "nome": "venteleporter",
+      "regras": [
+        "Todos podem usar os dutos e teletransportadores",
+        "Impostores não são os únicos que podem andar escondidos",
+        "Cuidado para não ser confundido com o inimigo",
+        "Movimentação rápida é a chave para sobreviver",
+        "Pode usar os dutos para fugir ou para vigiar"
+      ]
+    },
+    {
+      "nome": "desastre_natural",
+      "regras": [
+        "Sabotagens fortes acontecem de surpresa",
+        "A nave pode ficar sem luz, sem oxigênio ou pegar fogo",
+        "Todos devem ajudar a consertar rapidamente",
+        "Não há tempo para brigar: sobrevivência vem primeiro",
+        "Se a nave aguentar até o fim, todos ganham"
+      ]
+    },
+    {
+      "nome": "SemReunioes",
+      "regras": [
+        "NÃO EXISTE reunião de emergência",
+        "Não pode votar ninguém para sair",
+        "Só se descobre quem é o impostor por observação e pistas",
+        "Tripulantes ganham só se terminarem todas as tarefas",
+        "Impostores ganham se matarem todos ou sabotarem tudo"
+      ]
+    },
+    {
+      "nome": "copias",
+      "regras": [
+        "Existem cópias falsas dos jogadores verdadeiros",
+        "Você tem que descobrir quem é você mesmo e quem é o outro",
+        "Cuidado para não acusar o amigo errado",
+        "Cópias agem como impostores",
+        "Só os verdadeiros ganham se eliminarem todas as cópias"
+      ]
+    },
+    {
+      "nome": "TarefasImpossiveis",
+      "regras": [
+        "Tarefas são mais difíceis, demoradas ou com pegadinhas",
+        "Tripulantes devem se ajudar para conseguir terminar",
+        "Impostores sabem onde estão as tarefas mais difíceis",
+        "Ganham se conseguirem cumprir tudo antes do tempo acabar",
+        "Paciência e trabalho em equipe são obrigatórios"
+      ]
+    }
+  ]
 }
-}
+
