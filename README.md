@@ -1,6 +1,6 @@
 # Extra roles 
 Um mod onde pegamos alguns arquivos do Modding us
-além de completos para deixar o mod melhor 
+além de complementos para deixar o mod melhor 
 Onde funciona?
 Android 📱 
 pc 💻 
