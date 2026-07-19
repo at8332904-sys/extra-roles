@@ -3,7 +3,7 @@
   "Regions": [
     {
       "$type": "DnsRegionInfo, Assembly-CSharp",
-      "Name": "💙 STUDIOGUTO",
+      "Name": "STUDIOGUTO",
       "DefaultIp": "45.224.69.50",
       "Port": 22023,
       "UseDtls": false,
