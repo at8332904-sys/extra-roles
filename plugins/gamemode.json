@@ -22,8 +22,7 @@
     },
     {
       "nome": "EscondeEsconde",
-      "regras": [
-        "1 Impostor apenas, não pode matar de primeira",
+      "regras"
         "Tripulantes se escondem e fazem tarefas sem ser vistos",
         "Impostor conta até um número e sai para procurar",
         "Quem for encontrado é eliminado ou vira caçador também",
