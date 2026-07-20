@@ -2,9 +2,9 @@
   "versao_config": "2.0",
   "servidores": []
     {
-      "id": "extra-funcoes-br",
-      "nome": "Extra Funções - Brasil",
-      "endereco": "seu-servidor.exemplo.com",
+      "id": "extra-funções" 
+      "nome": "Extra Funções"
+      "endereco": "Super mods",
       "porta_jogo": 22023,
       "porta_websocket": 22024,
       "regiao": "STUDIOguto","América do Sul"
