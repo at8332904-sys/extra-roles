@@ -1,10 +1,5 @@
 # Extra roles 
-Um mod onde pegamos alguns arquivos do Modding us
-além de complementos para deixar o mod melhor 
-Onde funciona?
-Android 📱 
-pc 💻 
-iPhone 🍎 não vai?
-Não definitivamente vai funcionar mas para isso 
-colocamos as nossas regiões STUDIOGUTO e 217G.
-este projeto irá ser o máximo e sempre estaremos atualizando quando sair a primeira versão já estaremos disponibilizando como baixar
+este,eu considero como o novo EXTRA ROLES do Nothunter e estaremos revivendo ele, além de estar colocando o Submerged e mais skins além de 100 jogadores e tentaremos fazer este mod funcionar em Android este mod não tem nenhum vínculo com os donos do jogo por isso usaremos a versão antiga (2023 ou 2022) por isso não adianta tentar se quer abrir com o among us original
+avisos: Não terá versão para IPHONE porque tentamos sempre o lado mais seguro
+funciona aonde?
+epic games, steam e Android 
