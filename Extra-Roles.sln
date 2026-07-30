@@ -1,0 +1,15 @@
+Arquivo de solução do Microsoft Visual Studio, versão de formato 12.00
+Projeto ( "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}" ) = "ExtraRoles" , "ExtraRoles\ExtraRoles.csproj" , "{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}"
+Projeto final
+Global
+	GlobalSection ( SolutionConfigurationPlatforms ) = preSolution
+		Depurar | Qualquer CPU = Depurar | Qualquer CPU
+		Lançamento | Qualquer CPU = Lançamento | Qualquer CPU
+	Fim da seção global
+	GlobalSection ( ProjectConfigurationPlatforms ) = postSolution
+		{11FBC798-BAF5-4EE5-9511-BE6DB0592F99} . Depurar| Qualquer CPU . ActiveCfg = Depurar| Qualquer CPU
+		{11FBC798-BAF5-4EE5-9511-BE6DB0592F99} . Depurar| Qualquer CPU . Compilação . 0 = Depurar| Qualquer CPU
+		{11FBC798-BAF5-4EE5-9511-BE6DB0592F99} . Versão | Qualquer CPU . ActiveCfg = Versão | Qualquer CPU
+		{11FBC798-BAF5-4EE5-9511-BE6DB0592F99} . Versão | Qualquer CPU . Compilação . 0 = Versão | Qualquer CPU
+	Fim da seção global
+FimGlobal
