@@ -1,0 +1,54 @@
+usando  ExtraRoles . Médico ;
+usando  ExtraRoles . Oficial ;
+usando  ExtraRoles.Roles.Medic ;
+usando  ExtraRoles.Rpc ;
+usando  ExtraRolesMod ;
+usando  HarmonyLib ;
+usando  Hazel ;
+usando  Reactor ;
+usando  o sistema ;
+Usando  UnityEngine ;
+usando  o mod estático  ExtraRolesMod.ExtraRoles ;
+
+namespace  ExtraRoles.Roles.Officer
+{
+    [ HarmonyPatch ( typeof ( PlayerControl ) ,  nameof ( PlayerControl . MurderPlayer ) ) ]
+     classe estática  pública MurderPlayerPatch 
+    {
+        public  static  bool  Prefix ( PlayerControl  __instance ,  PlayerControl  PAIBDFDMIGK )
+        {
+            //verificar se o jogador é um oficial
+            se  ( __instance . isPlayerRole ( Role . Officer ) )
+            {
+                //Se for esse o caso, defina-os como impostores por um frame para que não sejam banidos pelo sistema anti-cheat.
+                __instance.Data.IsImpostor = true ;  
+            }
+
+            retornar  verdadeiro ;
+        }
+
+        //lidar com o assassinato depois que ele acontecer
+        public  static  void  Postfix ( PlayerControl  __instance ,  PlayerControl  PAIBDFDMIGK )
+        {
+            var  corpoMorto  =  novo  JogadorMorto
+            {
+                PlayerId  =  PAIBDFDMIGK . ID do jogador ,
+                KillerId  =  __instance.PlayerId ,
+                KillTime  =  DateTime.UtcNow ,
+                MotivoDaMorte  =  MotivoDaMorte . Matar
+            } ;
+
+            se  ( __instance . isPlayerRole ( Role . Officer ) )
+            {
+                __instance.Data.IsImpostor = false ;  
+            }
+
+            se  ( __instance . PlayerId  ==  PAIBDFDMIGK . PlayerId )
+            {
+                corpoMorte.MotivoDaMorte = ( MotivoDaMorte ) 3 ;  
+            }
+
+            killedPlayers.Add ( deadBody ) ;
+        }
+    }
+}
